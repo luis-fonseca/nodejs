@@ -1,0 +1,14 @@
+{
+  "name": "portal_de_noticias",
+  "version": "1.0.0",
+  "description": "Um site de notícias",
+  "main": "noticias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luís Fonseca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
