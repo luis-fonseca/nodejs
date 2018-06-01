@@ -1,7 +1,9 @@
 Express: Um framework, uma camada acima do Nodejs para fazer uma interface, Nodejs para aplicações web. Implementa uma API e diversos métodos para manipular funções do Nodejs para controle de rotas, middleware, dos módulos para requisição e resposta para o navegador. Dessa forma, o código precisa estar de acordo com uma estrutura para trabalhar com ele.
 EJS: Linguagem de modelagem de JavaScript para gerar páginas dinâmicas HTML.
-Nodemon: Reinicia o servidor Nodejs quando houver alguma alteração em algum script de desenvolvimento.
+Nodemon: Reinicia o servidor Nodejs quando houver alguma alteração em algum script de desenvolvimento. Ele se trata de um recurso para o desenvolvimento, não um módulo.
 NPM: Gerenciado de pacotes JavaScript para acrescentar novos módulos.
+Módulos: Permitem isolar e usar de forma recorrente o código dentro de uma aplicação. Os módulos são similares as classes utilizadas em outros projetos, mas podem retornar objetos, strings, funções e etc. Para se usar um módulo em uma aplicação utiliza-se a instrução require.
+CommonJS: É um formato para a construção de módulos. É uma forma de escrever um módulo para incorporar ao código de forma mais natural.
 
 Para instalar os módulos é necessário primeiro iniciar o NPM e responder algumas perguntas,
 
@@ -12,3 +14,4 @@ Terminado é possível instalar os módulos express, ejs e nodemon.
 npm install express --save
 
 O argumento --save permite salvar o módulo com o projeto e facilita a utilização por outros desenvolvedores sem precisar fazer a reinstalação. Além disso, ele também resolverá qualquer dependência do módulo a ser utilizado.
+
